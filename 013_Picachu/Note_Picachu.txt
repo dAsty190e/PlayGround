@@ -1,0 +1,33 @@
+﻿Zachary John Jones
+pokeman game
+
+// objective
+the object of this lesson is to reinforce your understanding of classes and using their state/behavior (properties/methods).
+you are going to create an arena where user will select 2 pokenam to fight
+each pokeman will be its own class
+all pokeman will have at least the following state: a Name, HP, and AP
+all pokeman will have a attack method and two other special action methods
+the game will start by having the user select which pokeman they want to fight
+one the pokeman is selected, the combat loop will begin
+the combat look will just be a loop of each pokeman taking 1 action
+the loop ends when either pokenmans HP is 0 and the winner is declared
+
+// combat rules
+the attack method will cost 0 AP
+special attacks will cost varying AP
+if a pokeman attempts to perform a special action but does not have enough AP, it will just attack instead
+
+// core programing concepts
+what is the difference between a class and an object (or instance)
+how do we create an instance of a class
+what is a property
+what is a method
+what is the general structure of a method
+loops (iteration or enumeration)
+
+// extra ideas
+class constructors
+class fields
+interfaces would make the combat loop much easier
+consider regenerating some AP per combat round
+random damage
