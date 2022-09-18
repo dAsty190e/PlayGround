@@ -3,8 +3,14 @@
     internal class Picachu
     {
         // fields (private state)
-        private int _baseDamage = 10; 
+        private int _baseDamage = 10;
         // constructors
+        //default constructor
+        /*public Picachu()
+        {
+            
+        }*/
+        // custom constructors
         public Picachu(string name)
         {
             Name = name;
