@@ -6,6 +6,7 @@ namespace _03_Exercice
     {
         static void Main(string[] args)
         {
+            var t = DateTime.Today.AddHours(0).AddMinutes(1).AddSeconds(1).TimeOfDay.Milliseconds;
             Console.WriteLine("Hi. My name is WALL'E!");
 
             bool success = false;

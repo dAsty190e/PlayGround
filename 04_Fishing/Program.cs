@@ -113,7 +113,7 @@ namespace _04_Fishing
             }
             else if (char.ToLower(fish) == 'n')
             {
-                Console.WriteLine("\nMayby later");
+                Console.WriteLine("\nMaybe later");
             }
         }
     }

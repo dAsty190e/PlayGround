@@ -73,6 +73,7 @@
             } while (noWinner);
             Console.Beep();
             Console.WriteLine($"{winnerName} is victorious!");
+            Console.Beep();
         }
     }
 }
